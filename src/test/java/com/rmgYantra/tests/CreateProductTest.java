@@ -44,7 +44,7 @@ public class CreateProductTest extends Base {
 	
 	System.out.println("Prod created !!");
 	
-	String expResult = "ABC";
+	String expResult = "Ninza CRM";
 	String actResult = driver.getTitle();
 	
 	Assert.assertEquals(expResult, actResult);
