@@ -90,7 +90,8 @@ public class CreateContactPage extends WebDriverUtility{
 		driver.switchTo().window(parWin);
 		}
 		createCntBtn.click();
-		System.out.println("Create Contact Page - Eclipse change");
+		System.out.println("Create Contact Page - Conflict resolved");
+
 
 	}
 }
