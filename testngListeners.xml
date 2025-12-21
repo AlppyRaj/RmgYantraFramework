@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners >
+<listener class-name="com.rmgYantra.ListenersUtilities.ListenerImplementation"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.rmgYantra.tests.CreateProductTest"/>
+      <class name="com.rmgYantra.tests.CreateContactTest"/>
+      <class name="com.rmgYantra.tests.CreateCampaignTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
