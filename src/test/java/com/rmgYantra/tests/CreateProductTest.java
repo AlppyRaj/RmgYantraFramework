@@ -35,7 +35,7 @@ public class CreateProductTest extends Base {
 		
 	HomePage hp1 = new HomePage(driver);
 	hp1.getproductsLinkk().click();
-	
+	//Adding comment for checking poll SCM
 	ProductPage pp = new ProductPage(driver);
 	pp.getAddProdBtn().click();
 	
